@@ -13,6 +13,7 @@ body {
 }
 
 header {
+	font-family: 'Roboto', sans-serif;
 	display: inline-flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -20,12 +21,12 @@ header {
 	padding-top: 10px;
 	width: 98%;
 	padding-right: 6px;
-	font-size: 15px;
+	font-size: 10pt;
 }
 
 .on-hover img {
-	padding-top: 10px;
-	width: 15px;
+	padding-top: 6px;
+	width: 12px;
 }
 
 .hidden-block {
@@ -56,13 +57,15 @@ header {
 .light {
 	margin-left: 6px;
 	letter-spacing: 20px;
-	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 	font-size: 50pt;
 	font-weight: 200;
 }
-.arrow {
-	width: 10px;
+.arrow img {
+	opacity: 0.8;
+	height: 40px;
+	float: right;
 }
 
 .image img {
@@ -98,8 +101,10 @@ header {
 
 
 footer p {
+	font-family: 'Roboto', sans-serif;
 	font-size: 10pt;
 	line-height: 15px;
+	padding-bottom: 10px;
 }
 
 footer .contacts {
