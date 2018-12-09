@@ -35,8 +35,8 @@ header {
 	border-radius: 10%;
 	text-transform: none;
 	line-height: 25px;
+	background: #ccc;
 	color: black;
-	background: white;
 	opacity: 0;
 	transition: 1s;
 }
@@ -56,11 +56,13 @@ header {
 .light {
 	margin-left: 6px;
 	letter-spacing: 20px;
-	;
 	margin-top: 30px;
 	margin-bottom: 40px;
 	font-size: 50pt;
 	font-weight: 200;
+}
+.arrow {
+	width: 10px;
 }
 
 .image img {
@@ -93,6 +95,7 @@ header {
 	transform: scale(2.5);
 	transition: 3s;
 }
+
 
 footer p {
 	font-size: 10pt;
