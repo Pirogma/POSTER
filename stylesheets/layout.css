@@ -20,7 +20,6 @@ header .mob_320 {
 	align-items: center;
 	padding-top: 10px;
 	width: 98%;
-	padding-right: 6px;
 	font-size: 10pt;
 }
 
@@ -37,7 +36,7 @@ header .ipad_768 {
 	position: absolute;
 	width: 87%;
 	padding: 20px;
-	border-radius: 10%;
+	border-radius: 15px;
 	text-transform: none;
 	line-height: 25px;
 	background: #ccc;
@@ -59,12 +58,13 @@ header .ipad_768 {
 }
 
 .light {
+	font-family: Geometria, sans-serif;
 	margin-left: 6px;
 	letter-spacing: 20px;
 	margin-top: 20px;
 	margin-bottom: 10px;
 	font-size: 50pt;
-	font-weight: 200;
+	font-weight: 100;
 }
 
 .arrow img {
@@ -137,13 +137,6 @@ footer .contacts {
 	padding-right: 20px;
 }
 
-footer {
-	opacity: 0.1;
-}
-
-footer:hover {
-	opacity: 1;
-}
 
 @media (min-width: 768px) {
 	body {
@@ -161,7 +154,6 @@ footer:hover {
 		align-items: center;
 		padding-top: 10px;
 		width: 98%;
-		padding-right: 12px;
 		font-size: 12pt;
 	}
 	.on-hover img {
@@ -180,11 +172,12 @@ footer:hover {
 		margin-left: -4px;
 	}
 	.light {
+		font-family: Geometria, sans-serif;
 		margin-left: 6px;
 		letter-spacing: 20px;
 		margin-top: 15px;
 		font-size: 125pt;
-		font-weight: 200;
+		font-weight: 100;
 	}
 	.arrow img {
 		margin-top: -66px;

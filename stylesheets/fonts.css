@@ -1,6 +1,10 @@
 @font-face {
   font-family: "Geometria";
 
-  src: url("fonts/Geometria.ttf") format("typeface");
-
+  src: url("../fonts/Geometria.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Geometria";
+  font-weight: 100;
+  src: url("../fonts/Geometria-Thin.ttf") format("truetype");
 }
