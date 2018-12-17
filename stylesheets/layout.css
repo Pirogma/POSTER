@@ -12,7 +12,7 @@ body {
 	padding-left: 6px;
 }
 
-header .mob_320 {
+header ul {
 	font-family: 'Roboto', sans-serif;
 	display: inline-flex;
 	flex-direction: row;
@@ -23,8 +23,13 @@ header .mob_320 {
 	font-size: 10pt;
 }
 
-header .ipad_768 {
+.name_768 .sek {
 	display: none;
+}
+
+.on-hover p {
+	padding-top: 3px;
+	font-size: 8pt;
 }
 
 .on-hover img {
@@ -143,10 +148,9 @@ footer .contacts {
 		width: 100%;
 		padding-left: 12px;
 	}
-	header .mob_320 {
-		display: none;
+
 	}
-	header .ipad_768{
+	header ul {
 		font-family: 'Roboto', sans-serif;
 		display: inline-flex;
 		flex-direction: row;
@@ -156,6 +160,14 @@ footer .contacts {
 		width: 98%;
 		font-size: 12pt;
 	}
+	.name_768 {
+		display: flex;
+	}
+
+	.name_320 {
+		display: none;
+	}
+
 	.on-hover img {
 		padding-top: 12px;
 		width: 22px;
