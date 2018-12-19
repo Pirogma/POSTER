@@ -4,12 +4,13 @@
 }
 
 body {
-	width: 320px;
+	min-width: 320px;
 	background-color: black;
 	font-family: 'Geometria', sans-serif;
 	color: white;
 	text-transform: uppercase;
 	padding-left: 6px;
+	padding-right: 6px;
 }
 
 header ul {
@@ -18,26 +19,32 @@ header ul {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 10px;
-	width: 98%;
+	margin-top: -10px;
+	padding-bottom: 15px;
+	width: 100%;
 	font-size: 10pt;
 }
+ul .name_320 {
+	font-size: 16pt;
+	margin-right: 30px;
 
-.name_768 .sek {
+}
+ul .name_768, .sec, .dv {
 	display: none;
 }
 
-.on-hover p {
-	padding-top: 3px;
-	font-size: 8pt;
-}
-
-.on-hover img {
-	padding-top: 6px;
-	width: 12px;
-}
+ .on-hover img {
+	 margin-top: 8px;
+ 	width: 9px;
+margin-left: 45px;
+border: 0.1px solid #c0c0c0;
+border-radius: 100%;
+box-shadow: inset #000000 0 0 40px 1px,
+	                  #ffffff 0 0 24px 1px;
+ }
 
 .hidden-block {
+	font-family: 'Istok Web', sans-serif;
 	position: absolute;
 	width: 87%;
 	padding: 20px;
@@ -62,17 +69,22 @@ header ul {
 	margin-left: -4px;
 }
 
+.text2 {
+	margin-top: 10px;
+}
+
 .light {
 	font-family: Geometria, sans-serif;
 	margin-left: 6px;
 	letter-spacing: 20px;
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 	font-size: 50pt;
 	font-weight: 100;
 }
 
 .arrow img {
+	display: none;
 	opacity: 0.8;
 	height: 40px;
 	float: right;
@@ -85,13 +97,13 @@ header ul {
 
 .image img:first-child {
 	margin-left: 210px;
-	margin-top: 20px;
+	margin-top: 10px;
 	width: 80px;
 }
 
 .image img:last-child {
-	margin-top: 85px;
-	margin-left: 60px;
+	margin-top: 75px;
+	margin-left: 65px;
 	width: 110px;
 }
 
@@ -107,6 +119,44 @@ header ul {
 	-ms-transform: scale(2.5);
 	transform: scale(2.5);
 	transition: 3s;
+}
+
+.about h1 {
+	text-align: right;
+	margin-top: -5px;
+	font-size: 25pt;
+	padding-bottom: 20px;
+	opacity: 0.8;
+}
+
+.about p {
+	grid-template-columns: 150px 1fr 150px;
+	grid-template-rows: 50px auto 50px;
+		display: grid;
+
+	text-align: right;
+	text-transform: none;
+	font-family: 'Istok Web', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 30px;
+  background-image: linear-gradient(45deg, #000000 0%, #ffffff 50%, #000000 100%);
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  font-size: 16px;
+  color: white;
+  transition: .5s;
+	opacity: 0.8;
+}
+
+a:hover {
+  box-shadow: 0 0 0 0 rgba(0,40,120,0);
+  background-position: 0 0;
 }
 
 footer p {
@@ -140,126 +190,4 @@ footer .contacts {
 	height: 20px;
 	width: 20px;
 	padding-right: 20px;
-}
-
-
-@media (min-width: 768px) {
-	body {
-		width: 100%;
-		padding-left: 12px;
-	}
-
-	}
-	header ul {
-		font-family: 'Roboto', sans-serif;
-		display: inline-flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		padding-top: 10px;
-		width: 98%;
-		font-size: 12pt;
-	}
-	.name_768 {
-		display: flex;
-	}
-
-	.name_320 {
-		display: none;
-	}
-
-	.on-hover img {
-		padding-top: 12px;
-		width: 22px;
-	}
-	.hidden-block {
-		position: absolute;
-		width: 50%;
-
-	}
-
-	.text {
-		font-size: 115pt;
-		opacity: 0.8;
-		margin-left: -4px;
-	}
-	.light {
-		font-family: Geometria, sans-serif;
-		margin-left: 6px;
-		letter-spacing: 20px;
-		margin-top: 15px;
-		font-size: 125pt;
-		font-weight: 100;
-	}
-	.arrow img {
-		margin-top: -66px;
-		opacity: 0.8;
-		height: 80px;
-		float: right;
-	}
-	.image img {
-		position: absolute;
-		z-index: 2;
-	}
-	.image img:first-child {
-		margin-left: 420px;
-		margin-top: 40px;
-		width: 160px;
-	}
-	.image img:last-child {
-		margin-top: 170px;
-		margin-left: 120px;
-		width: 220px;
-	}
-	.image img:first-child:hover {
-		-webkit-transform: scale(2.5);
-		-ms-transform: scale(2.5);
-		transform: scale(2.5);
-		transition: 3s;
-	}
-	.image img:last-child:hover {
-		-webkit-transform: scale(2.5);
-		-ms-transform: scale(2.5);
-		transform: scale(2.5);
-		transition: 3s;
-	}
-	footer p {
-		font-family: 'Roboto', sans-serif;
-		font-size: 20pt;
-		line-height: 30px;
-		padding-bottom: 10px;
-	}
-	footer .contacts {
-		display: inline-flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-	}
-	.vk {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
-	}
-	.inst {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
-	}
-	.logo {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
-		padding-right: 80px;
-	}
-	footer {
-		opacity: 0.1;
-	}
-	footer:hover {
-		opacity: 1;
-	}
-}
-
-
-}
-
 }
