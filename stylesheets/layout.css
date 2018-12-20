@@ -242,9 +242,7 @@ blockquote {
 }
 
 
-footer {
-	width: 100%;
-}
+
 footer p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 10pt;
@@ -257,7 +255,7 @@ footer .contacts {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 12px;
+	margin-left: 24px;
 }
 
 .vk {
