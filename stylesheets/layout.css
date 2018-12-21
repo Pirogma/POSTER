@@ -572,3 +572,274 @@ margin-right: 12px;
 		padding-right: 80px;
 	}
 }
+
+@media (min-width: 1024px) {
+	body {
+		min-width: 1024px;
+		padding-left: 24px;
+	}
+
+	header ul {
+		font-family: 'Roboto', sans-serif;
+		display: inline-flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 10px;
+		width: 95%;
+		font-size: 16pt;
+	}
+
+	.name_320 {
+		display: none;
+	}
+
+	ul .name_768,
+	.sec,
+	.dv {
+		display: flex;
+	}
+
+	.on-hover img {
+		margin-top: 12px;
+		width: 15px;
+		margin-left: 265px;
+		border: 0.1px solid #c0c0c0;
+		border-radius: 100%;
+		box-shadow: inset #000000 0 0 10px 0.5px, #ffffff 0 0 6px 0.5px;
+	}
+
+	.hidden-block {
+		position: absolute;
+		width: 50%;
+	}
+
+	.text {
+		font-size: 145pt;
+		opacity: 0.8;
+		margin-left: -14px;
+	}
+
+	.text2 {
+		margin-top: 10px;
+		font-size: 14pt;
+	}
+
+	.light {
+		font-family: Geometria, sans-serif;
+		margin-left: 6px;
+		letter-spacing: 20px;
+		margin-top: 15px;
+		font-size: 125pt;
+		font-weight: 100;
+	}
+
+	.image img {
+		position: absolute;
+		z-index: 2;
+	}
+
+	.image img:first-child {
+		margin-left: 420px;
+		margin-top: 40px;
+		width: 160px;
+	}
+
+	.image img:last-child {
+		margin-top: 150px;
+		margin-left: 120px;
+		width: 220px;
+	}
+
+	.image img:first-child:hover {
+		-webkit-transform: scale(2.5);
+		-ms-transform: scale(2.5);
+		transform: scale(2.5);
+		transition: 3s;
+	}
+
+	.image img:last-child:hover {
+		-webkit-transform: scale(2.5);
+		-ms-transform: scale(2.5);
+		transform: scale(2.5);
+		transition: 3s;
+	}
+
+	.about h1 {
+		text-align: right;
+		margin-left: -160px;
+		font-size: 32pt;
+		padding-bottom: 40px;
+	}
+
+	.about h2 {
+		text-align: center;
+		margin-top: -5px;
+		font-size: 48pt;
+		padding-bottom: 35px;
+		opacity: 0.8;
+	}
+
+	h3 {
+		font-size: 24pt;
+		margin-bottom: 20px;
+	}
+
+	.infa p {
+		margin-top: 100px;
+		font-size: 60pt;
+	}
+
+	.infa2 p {
+		text-align: center;
+		font-size: 18pt;
+		width: 576pt;
+	}
+
+	.about ul {
+		line-height: 150%;
+		text-align: right;
+		text-transform: none;
+		font-family: 'Istok Web', sans-serif;
+		padding-bottom: 20px;
+		padding-top: 15px;
+		font-size: 22pt;
+		margin-right: 12px;
+	}
+
+	.about a {
+		text-decoration: none;
+		outline: none;
+		display: inline-block;
+		padding: 15px;
+		border-radius: 30px;
+		background-image: linear-gradient(45deg, #000000 0%, #ffffff 50%, #000000 100%);
+		background-position: 100% 0;
+		background-size: 200% 200%;
+		font-size: 34px;
+		color: white;
+		transition: .5s;
+		opacity: 0.9;
+margin-right: 12px;
+	}
+
+	.about a:hover {
+		background-position: 0 0;
+	}
+
+	.cut {
+		position: absolute;
+		width: 190px;
+		margin-left: -6px;
+		margin-bottom: -10px;
+	}
+
+	.cut2 {
+		position: absolute;
+		margin-top: -140px;
+		margin-left: 410px;
+		width: 120px;
+		opacity: 0.7;
+	}
+
+	.cut3 {
+		position: absolute;
+		margin-top: -20px;
+		margin-left: 900px;
+		width: 125px;
+		opacity: 0.7;
+	}
+
+	.cut4 {
+		position: absolute;
+		margin-top: -70px;
+		margin-left: 890px;
+		width: 130px;
+		opacity: 0.7;
+	}
+
+	.cut5 {
+		position: absolute;
+		margin-top: -20px;
+		margin-left: 65px;
+		width: 80px;
+		opacity: 0.7;
+	}
+
+	.cut6 {
+		position: absolute;
+		margin-top: 45px;
+		margin-left: 320px;
+		width: 60px;
+		opacity: 0.5;
+	}
+
+	.image2 img {
+		position: absolute;
+		z-index: 3;
+		width: 100%;
+	}
+
+	.image2 img:first-child {
+		margin-left: 505px;
+		margin-top: 30px;
+		width: 90px;
+		opacity: 0.5;
+	}
+
+	.image2 img:last-child {
+		margin-top: -105px;
+		margin-left: 595px;
+		width: 160px;
+		opacity: 0.6;
+	}
+	blockquote {
+  	font-family: 'Istok Web', sans-serif;
+  	background: none repeat scroll 0 0 #000000;
+  	border-bottom: 3px dashed #bababa;
+  	border-top: 3px dashed #bababa;
+  	color: #ffffff;
+  	opacity: 0.9;
+  	font-size: 24px;
+  	font-style: italic;
+  	line-height: 1.45;
+  	padding: 10px 15px;
+  	position: relative;
+  	text-align: center;
+		width: 75%;
+		margin-left: 96px;
+  }
+
+	footer p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 20pt;
+		line-height: 30px;
+		padding-bottom: 10px;
+	}
+
+	footer .contacts {
+		display: inline-flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.vk {
+		padding-left: 80px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.inst {
+		padding-left: 80px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.logo {
+		padding-left: 80px;
+		width: 40px;
+		height: 40px;
+		padding-right: 80px;
+	}
+}
