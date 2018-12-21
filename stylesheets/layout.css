@@ -21,11 +21,11 @@ header ul {
 	align-items: center;
 	padding-bottom: 15px;
 	width: 100%;
-	font-size: 10pt;
+	font-size: 0.83em;
 }
 
 ul .name_320 {
-	font-size: 16pt;
+	font-size: 1.3em;
 	margin-right: 30px;
 }
 
@@ -37,8 +37,8 @@ ul .name_768,
 
 .on-hover img {
 	margin-top: 8px;
-	width: 9px;
-	margin-left: 45px;
+	width: 0.56em;
+	margin-left: 2.8em;
 	border: 0.1px solid #c0c0c0;
 	border-radius: 100%;
 	box-shadow: inset #000000 0 0 10px 0.5px, #ffffff 0 0 6px 0.5px;
@@ -65,23 +65,23 @@ ul .name_768,
 }
 
 .text {
-	font-size: 45pt;
+	font-size: 3.8em;
 	opacity: 0.8;
-	margin-left: -4px;
+	margin-left: -0.25em;
 }
 
 .text2 {
 	margin-top: 10px;
-	font-size: 28pt;
+	font-size: 2.3em;
 	opacity: 0.8;
 }
 
 .light {
-	margin-left: 6px;
+	margin-left: 0.38em;
 	letter-spacing: 20px;
 	margin-top: 20px;
 	margin-bottom: 40px;
-	font-size: 50pt;
+	font-size: 4.2em;
 	font-weight: 100;
 }
 
@@ -91,15 +91,15 @@ ul .name_768,
 }
 
 .image img:first-child {
-	margin-left: 210px;
+	margin-left: 13em;
 	margin-top: 10px;
-	width: 80px;
+	width: 5em;
 }
 
 .image img:last-child {
 	margin-top: 66px;
-	margin-left: 70px;
-	width: 120px;
+	margin-left: 4.4em;
+	width: 7.5em;
 	opacity: 0.8;
 }
 
@@ -118,10 +118,10 @@ ul .name_768,
 }
 
 .about h1 {
-	margin-left: 6px;
+	margin-left: 0.38em;
 	margin-top: -22px;
 	line-height: 150%;
-	font-size: 16pt;
+	font-size: 1.3em;
 	width: 75%;
 	padding-bottom: 20px;
 	opacity: 0.8;
@@ -130,7 +130,7 @@ ul .name_768,
 .about h2 {
 	text-align: center;
 	margin-top: -5px;
-	font-size: 25pt;
+	font-size: 2.1em;
 	padding-bottom: 20px;
 	opacity: 0.8;
 }
@@ -178,7 +178,7 @@ ul .name_768,
 
 .infa p {
 	margin-top: 55px;
-	font-size: 20pt;
+	font-size: 1.7em;
 }
 
 .image2 img {
@@ -188,22 +188,22 @@ ul .name_768,
 }
 
 .image2 img:first-child {
-	margin-left: 85px;
+	margin-left: 5.3em;
 	margin-top: 30px;
-	width: 90px;
+	width: 5.6em;
 	opacity: 0.5;
 }
 
 .image2 img:last-child {
 	margin-top: -55px;
-	margin-left: 195px;
-	width: 120px;
+	margin-left: 12em;
+	width: 7.5em;
 	opacity: 0.6;
 }
 
 h3 {
 	text-align: center;
-	font-size: 14pt;
+	font-size: 1.2em;
 	margin-bottom: 10px;
 }
 
@@ -214,59 +214,59 @@ blockquote {
 	border-top: 3px dashed #bababa;
 	color: #ffffff;
 	opacity: 0.9;
-	font-size: 12px;
+	font-size: 0.75em;
 	font-style: italic;
 	line-height: 1.45;
 	padding: 10px 15px;
 	position: relative;
 	text-align: center;
-	width: 300px;
+	width: 19em;
 }
 
 .cut {
 	position: absolute;
-	width: 150px;
-	margin-left: -6px;
+	width: 9.4em;
+	margin-left: -0.38em;
 	margin-bottom: -10px;
 }
 
 .cut2 {
 	position: absolute;
 	margin-top: -60px;
-	margin-left: 85px;
-	width: 80px;
+	margin-left: 5.3em;
+	width: 5em;
 	opacity: 0.7;
 }
 
 .cut3 {
 	position: absolute;
 	margin-top: -20px;
-	margin-left: 235px;
-	width: 95px;
+	margin-left: 15em;
+	width: 5.9em;
 	opacity: 0.7;
 }
 
 .cut4 {
 	position: absolute;
 	margin-top: -60px;
-	margin-left: 245px;
-	width: 85px;
+	margin-left: 15em;
+	width: 5.3em;
 	opacity: 0.7;
 }
 
 .cut5 {
 	position: absolute;
 	margin-top: -20px;
-	margin-left: 45px;
-	width: 60px;
+	margin-left: 2.8em;
+	width: 3.8em;
 	opacity: 0.7;
 }
 
 .cut6 {
 	position: absolute;
 	margin-top: 45px;
-	margin-left: 120px;
-	width: 60px;
+	margin-left: 7.5em;
+	width: 3.8em;
 	opacity: 0.5;
 }
 
@@ -274,7 +274,7 @@ blockquote {
 }
 footer p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 10pt;
+	font-size: 0.83em;
 	line-height: 15px;
 	padding-bottom: 10px;
 }
@@ -283,7 +283,7 @@ footer .contacts {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 5px;
+	margin-left: 0.31em;
 }
 .vk {
 	padding-left: 20px;
@@ -291,15 +291,15 @@ footer .contacts {
 	height: 20px;
 }
 .inst {
-	padding-left: 20px;
-	width: 20px;
-	height: 20px;
+	padding-left: 1.3em;
+	width: 1.3em;
+	height: 1.3em;
 }
 .logo {
-	padding-left: 20px;
-	height: 20px;
-	width: 20px;
-	padding-right: 20px;
+	padding-left: 1.3em;
+	height: 1.3em;
+	width: 1.3em;
+	padding-right: 1.3em;
 }
 @media (min-width: 768px) {
 	body {
@@ -315,7 +315,7 @@ footer .contacts {
 		align-items: center;
 		padding-top: 10px;
 		width: 95%;
-		font-size: 12pt;
+		font-size: 1em;
 	}
 
 	.name_320 {
@@ -330,8 +330,8 @@ footer .contacts {
 
 	.on-hover img {
 		margin-top: 12px;
-		width: 15px;
-		margin-left: 265px;
+		width: 0.94em;
+		margin-left: 17em;
 		border: 0.1px solid #c0c0c0;
 		border-radius: 100%;
 		box-shadow: inset #000000 0 0 10px 0.5px, #ffffff 0 0 6px 0.5px;
@@ -343,22 +343,22 @@ footer .contacts {
 	}
 
 	.text {
-		font-size: 105pt;
+		font-size: 8.8em;
 		opacity: 0.8;
-		margin-left: -4px;
+		margin-left: -0.25em;
 	}
 
 	.text2 {
 		margin-top: 10px;
-		font-size: 28pt;
+		font-size: 2.3em;
 	}
 
 	.light {
 		font-family: Geometria, sans-serif;
-		margin-left: 6px;
+		margin-left: 0.38em;
 		letter-spacing: 20px;
 		margin-top: 15px;
-		font-size: 125pt;
+		font-size: 10em;
 		font-weight: 100;
 	}
 
@@ -368,15 +368,15 @@ footer .contacts {
 	}
 
 	.image img:first-child {
-		margin-left: 420px;
+		margin-left: 26em;
 		margin-top: 40px;
-		width: 160px;
+		width: 10em;
 	}
 
 	.image img:last-child {
 		margin-top: 150px;
-		margin-left: 120px;
-		width: 220px;
+		margin-left: 7.5em;
+		width: 14em;
 	}
 
 	.image img:first-child:hover {
@@ -395,37 +395,37 @@ footer .contacts {
 
 	.about h1 {
 		text-align: right;
-		margin-left: -160px;
-		font-size: 32pt;
+		margin-left: -10em;
+		font-size: 2.7em;
 		padding-bottom: 40px;
 	}
 
 	.about h2 {
 		text-align: center;
 		margin-top: -5px;
-		font-size: 48pt;
+		font-size: 4em;
 		padding-bottom: 35px;
 		opacity: 0.8;
 	}
 
 	h3 {
-		font-size: 24pt;
+		font-size: 2;
 		margin-bottom: 20px;
 	}
 
 	.intro {
-		font-size: 17pt;
+		font-size: 1.4em;
 	}
 
 	.infa p {
 		margin-top: 100px;
-		font-size: 60pt;
+		font-size: 5em;
 	}
 
 	.infa2 p {
 		text-align: center;
-		font-size: 18pt;
-		width: 576pt;
+		font-size: 1.5em;
+		width: 48em;
 	}
 
 	.about ul {
@@ -435,7 +435,7 @@ footer .contacts {
 		font-family: 'Istok Web', sans-serif;
 		padding-bottom: 20px;
 		padding-top: 15px;
-		font-size: 22pt;
+		font-size: 1.8em;
 		margin-right: 12px;
 	}
 
@@ -448,7 +448,7 @@ footer .contacts {
 		background-image: linear-gradient(45deg, #000000 0%, #ffffff 50%, #000000 100%);
 		background-position: 100% 0;
 		background-size: 200% 200%;
-		font-size: 34px;
+		font-size: 2.1em;
 		color: white;
 		transition: .5s;
 		opacity: 0.9;
@@ -461,48 +461,48 @@ footer .contacts {
 
 	.cut {
 		position: absolute;
-		width: 190px;
-		margin-left: -6px;
+		width: 12em;
+		margin-left: -0.38em;
 		margin-bottom: -10px;
 	}
 
 	.cut2 {
 		position: absolute;
 		margin-top: -80px;
-		margin-left: 260px;
-		width: 120px;
+		margin-left: 16em;
+		width: 7.5em;
 		opacity: 0.7;
 	}
 
 	.cut3 {
 		position: absolute;
 		margin-top: -20px;
-		margin-left: 670px;
-		width: 105px;
+		margin-left: 42em;
+		width: 6.6em;
 		opacity: 0.7;
 	}
 
 	.cut4 {
 		position: absolute;
 		margin-top: -70px;
-		margin-left: 660px;
-		width: 100px;
+		margin-left: 41em;
+		width: 6.3em;
 		opacity: 0.7;
 	}
 
 	.cut5 {
 		position: absolute;
 		margin-top: -20px;
-		margin-left: 65px;
-		width: 80px;
+		margin-left: 4.1em;
+		width: 5em;
 		opacity: 0.7;
 	}
 
 	.cut6 {
 		position: absolute;
 		margin-top: 45px;
-		margin-left: 320px;
-		width: 60px;
+		margin-left: 20em;
+		width: 3.8em;
 		opacity: 0.5;
 	}
 
@@ -513,16 +513,16 @@ footer .contacts {
 	}
 
 	.image2 img:first-child {
-		margin-left: 505px;
+		margin-left: 32em;
 		margin-top: 30px;
-		width: 90px;
+		width: 5.6em;
 		opacity: 0.5;
 	}
 
 	.image2 img:last-child {
 		margin-top: -105px;
-		margin-left: 595px;
-		width: 160px;
+		margin-left: 37em;
+		width: 10em;
 		opacity: 0.6;
 	}
 
@@ -533,19 +533,19 @@ footer .contacts {
 		border-top: 3px dashed #bababa;
 		color: #ffffff;
 		opacity: 0.9;
-		font-size: 24px;
+		font-size: 1.5em;
 		font-style: italic;
 		line-height: 1.45;
 		padding: 10px 15px;
 		position: relative;
 		text-align: center;
 		width: 75%;
-		margin-left: 96px;
+		margin-left: 6em;
 	}
 
 	footer p {
 		font-family: 'Roboto', sans-serif;
-		font-size: 20pt;
+		font-size: 1.7em;
 		line-height: 30px;
 		padding-bottom: 10px;
 	}
@@ -558,22 +558,22 @@ footer .contacts {
 	}
 
 	.vk {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
+		padding-left: 5em;
+		width: 2.5em;
+		height: 2.5em;
 	}
 
 	.inst {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
+		padding-left: 5em;
+		width: 2.5em;
+		height: 2.5em;
 	}
 
 	.logo {
 		padding-left: 80px;
-		width: 40px;
-		height: 40px;
-		padding-right: 80px;
+		width: 2.5em;
+		height: 2.5em;
+		padding-right: 5em;
 	}
 }
 @media (min-width: 1024px) {
@@ -590,7 +590,7 @@ footer .contacts {
 		align-items: center;
 		padding-top: 10px;
 		width: 95%;
-		font-size: 16pt;
+		font-size: 1.3em;
 	}
 
 	.name_320 {
@@ -605,8 +605,8 @@ footer .contacts {
 
 	.on-hover img {
 		margin-top: 12px;
-		width: 15px;
-		margin-left: 350px;
+		width: 0.94em;
+		margin-left: 22em;
 		border: 0.1px solid #c0c0c0;
 		border-radius: 100%;
 		box-shadow: inset #000000 0 0 10px 0.5px, #ffffff 0 0 6px 0.5px;
@@ -618,22 +618,22 @@ footer .contacts {
 	}
 
 	.text {
-		font-size: 145pt;
+		font-size: 12em;
 		opacity: 0.8;
-		margin-left: -14px;
+		margin-left: -0.88em;
 	}
 
 	.text2 {
 		margin-top: 10px;
-		font-size: 14pt;
+		font-size: 1.2em;
 	}
 
 	.light {
 		font-family: Geometria, sans-serif;
-		margin-left: 6px;
+		margin-left: 0.38em;
 		letter-spacing: 20px;
 		margin-top: 15px;
-		font-size: 125pt;
+		font-size: 10em;
 		font-weight: 100;
 	}
 
@@ -643,15 +643,15 @@ footer .contacts {
 	}
 
 	.image img:first-child {
-		margin-left: 420px;
+		margin-left: 26em;
 		margin-top: 40px;
-		width: 160px;
+		width: 10em;
 	}
 
 	.image img:last-child {
 		margin-top: 150px;
-		margin-left: 120px;
-		width: 220px;
+		margin-left: 7.5em;
+		width: 14em;
 	}
 
 	.image img:first-child:hover {
@@ -670,36 +670,36 @@ footer .contacts {
 
 	.about h1 {
 		text-align: right;
-		margin-left: -160px;
-		font-size: 32pt;
+		margin-left: -10em;
+		font-size: 2.7em;
 		padding-bottom: 40px;
 	}
 
 	.about h2 {
 		text-align: center;
 		margin-top: -5px;
-		font-size: 48pt;
+		font-size: 4em;
 		padding-bottom: 35px;
 		opacity: 0.8;
 	}
 
 	h3 {
-		font-size: 24pt;
+		font-size: 2em;
 		margin-bottom: 20px;
 	}
 
 	.intro {
-		font-size: 28pt;
+		font-size: 2.3em;
 	}
 
 	.infa p {
 		margin-top: 100px;
-		font-size: 60pt;
+		font-size: 5em;
 	}
 
 	.infa2 p {
 		text-align: center;
-		font-size: 18pt;
+		font-size: 1.5em;
 		min-width: 1028px;
 	}
 
@@ -710,7 +710,7 @@ footer .contacts {
 		font-family: 'Istok Web', sans-serif;
 		padding-bottom: 20px;
 		padding-top: 15px;
-		font-size: 22pt;
+		font-size: 1.8em;
 		margin-right: 12px;
 	}
 
@@ -723,7 +723,7 @@ footer .contacts {
 		background-image: linear-gradient(45deg, #000000 0%, #ffffff 50%, #000000 100%);
 		background-position: 100% 0;
 		background-size: 200% 200%;
-		font-size: 34px;
+		font-size: 2.1em;
 		color: white;
 		transition: .5s;
 		opacity: 0.9;
@@ -736,48 +736,48 @@ footer .contacts {
 
 	.cut {
 		position: absolute;
-		width: 190px;
-		margin-left: -6px;
+		width: 12em;
+		margin-left: -0.38em;
 		margin-bottom: -10px;
 	}
 
 	.cut2 {
 		position: absolute;
 		margin-top: -140px;
-		margin-left: 410px;
-		width: 120px;
+		margin-left: 26em;
+		width: 7.5em;
 		opacity: 0.7;
 	}
 
 	.cut3 {
 		position: absolute;
 		margin-top: -20px;
-		margin-left: 900px;
-		width: 125px;
+		margin-left: 56em;
+		width: 7.8em;
 		opacity: 0.7;
 	}
 
 	.cut4 {
 		position: absolute;
 		margin-top: -70px;
-		margin-left: 890px;
-		width: 130px;
+		margin-left: 56em;
+		width: 7.8em;
 		opacity: 0.7;
 	}
 
 	.cut5 {
 		position: absolute;
 		margin-top: -20px;
-		margin-left: 65px;
-		width: 80px;
+		margin-left: 4.1em;
+		width: 5em;
 		opacity: 0.7;
 	}
 
 	.cut6 {
 		position: absolute;
 		margin-top: 45px;
-		margin-left: 320px;
-		width: 60px;
+		margin-left: 20em;
+		width: 3.8em;
 		opacity: 0.5;
 	}
 
@@ -788,16 +788,16 @@ footer .contacts {
 	}
 
 	.image2 img:first-child {
-		margin-left: 505px;
+		margin-left: 32em;
 		margin-top: 30px;
-		width: 90px;
+		width: 5.6em;
 		opacity: 0.5;
 	}
 
 	.image2 img:last-child {
 		margin-top: -105px;
-		margin-left: 595px;
-		width: 160px;
+		margin-left: 37em;
+		width: 10em;
 		opacity: 0.6;
 	}
 
@@ -808,19 +808,19 @@ footer .contacts {
 		border-top: 3px dashed #bababa;
 		color: #ffffff;
 		opacity: 0.9;
-		font-size: 24px;
+		font-size: 1.5em;
 		font-style: italic;
 		line-height: 1.45;
 		padding: 10px 15px;
 		position: relative;
 		text-align: center;
 		width: 75%;
-		margin-left: 96px;
+		margin-left: 6em;
 	}
 
 	footer p {
 		font-family: 'Roboto', sans-serif;
-		font-size: 20pt;
+		font-size: 1.7em;
 		line-height: 30px;
 		padding-bottom: 10px;
 	}
@@ -833,22 +833,22 @@ footer .contacts {
 	}
 
 	.vk {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
+		padding-left: 5em;
+		width: 2.5em;
+		height: 2.5em;
 	}
 
 	.inst {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
+		padding-left: 5em;
+		width: 2.5em;
+		height: 2.5em;
 	}
 
 	.logo {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
-		padding-right: 80px;
+		padding-left: 5em;
+		width: 2.5em;
+		height: 2.5em;
+		padding-right: 5em;
 	}
 }
 @media (min-width: 1440px) {
@@ -865,7 +865,7 @@ footer .contacts {
 		align-items: center;
 		padding-top: 10px;
 		width: 95%;
-		font-size: 20pt;
+		font-size: 1.7em;
 	}
 
 	.name_320 {
@@ -880,8 +880,8 @@ footer .contacts {
 
 	.on-hover img {
 		margin-top: 12px;
-		width: 15px;
-		margin-left: 435px;
+		width: 0.94em;
+		margin-left: 27em;
 		border: 0.1px solid #c0c0c0;
 		border-radius: 100%;
 		box-shadow: inset #000000 0 0 10px 0.5px, #ffffff 0 0 6px 0.5px;
@@ -893,21 +893,21 @@ footer .contacts {
 	}
 
 	.text {
-		font-size: 185pt;
+		font-size: 15em;
 		opacity: 0.8;
-		margin-left: -14px;
+		margin-left: -0.88em;
 	}
 
 	.text2 {
 		margin-top: 10px;
-		font-size: 36pt;
+		font-size: 3em;
 	}
 
 	.light {
 		font-family: Geometria, sans-serif;
-		margin-left: 6px;
+		margin-left: 0.38em;
 		letter-spacing: 20px;
-		font-size: 185pt;
+		font-size: 15em;
 		font-weight: 100;
 		text-align: right;
 		margin-right: 48px;
@@ -920,15 +920,15 @@ footer .contacts {
 	}
 
 	.image img:first-child {
-		margin-left: 420px;
+		margin-left: 26em;
 		margin-top: 40px;
-		width: 260px;
+		width: 16em;
 	}
 
 	.image img:last-child {
 		margin-top: 250px;
-		margin-left: 120px;
-		width: 320px;
+		margin-left: 7.5em;
+		width: 20em;
 	}
 
 	.image img:first-child:hover {
@@ -947,37 +947,37 @@ footer .contacts {
 
 	.about h1 {
 		text-align: right;
-		margin-left: -160px;
-		font-size: 48pt;
+		margin-left: -10em;
+		font-size: 4em;
 		padding-bottom: 40px;
 	}
 
 	.about h2 {
 		text-align: center;
 		margin-top: -5px;
-		font-size: 60pt;
+		font-size: 5em;
 		padding-bottom: 35px;
 		opacity: 0.8;
 	}
 
 	h3 {
-		font-size: 34pt;
+		font-size: 2.8em;
 		margin-bottom: 20px;
 	}
 
 	.intro {
-		font-size: 36pt;
+		font-size: 3em;
 	}
 
 	.infa p {
 		margin-top: 100px;
-		font-size: 72pt;
+		font-size: 6em;
 	}
 
 	.infa2 p {
 		min-width: 1440px;
 		text-align: center;
-		font-size: 36pt;
+		font-size: 3em;
 	}
 
 	.about ul {
@@ -987,7 +987,7 @@ footer .contacts {
 		font-family: 'Istok Web', sans-serif;
 		padding-bottom: 40px;
 		padding-top: 35px;
-		font-size: 32pt;
+		font-size: 2.7em;
 		margin-right: 12px;
 	}
 
@@ -1013,16 +1013,16 @@ footer .contacts {
 
 	.cut {
 		position: absolute;
-		width: 190px;
-		margin-left: -6px;
+		width: 12em;
+		margin-left: -0.38em;
 		margin-bottom: -10px;
 	}
 
 	.cut2 {
 		position: absolute;
 		margin-top: -140px;
-		margin-left: 660px;
-		width: 120px;
+		margin-left: 41em;
+		width: 7.5em;
 		opacity: 0.7;
 	}
 
@@ -1030,31 +1030,31 @@ footer .contacts {
 		position: absolute;
 		margin-top: -110px;
 		margin-left: 1080px;
-		width: 350px;
+		width: 22em;
 		opacity: 0.7;
 	}
 
 	.cut4 {
 		position: absolute;
 		margin-top: -180px;
-		margin-left: 1200px;
-		width: 230px;
+		margin-left: 68em;
+		width: 14em;
 		opacity: 0.7;
 	}
 
 	.cut5 {
 		position: absolute;
 		margin-top: -20px;
-		margin-left: 65px;
-		width: 80px;
+		margin-left: 4.1em;
+		width: 5em;
 		opacity: 0.7;
 	}
 
 	.cut6 {
 		position: absolute;
 		margin-top: 45px;
-		margin-left: 320px;
-		width: 60px;
+		margin-left: 20em;
+		width: 63.8em;
 		opacity: 0.5;
 	}
 
@@ -1065,16 +1065,16 @@ footer .contacts {
 	}
 
 	.image2 img:first-child {
-		margin-left: 505px;
+		margin-left: 32em;
 		margin-top: 30px;
-		width: 90px;
+		width: 5.6em;
 		opacity: 0.5;
 	}
 
 	.image2 img:last-child {
 		margin-top: -105px;
-		margin-left: 595px;
-		width: 160px;
+		margin-left: 37em;
+		width: 10em;
 		opacity: 0.6;
 	}
 
@@ -1085,19 +1085,19 @@ footer .contacts {
 		border-top: 3px dashed #bababa;
 		color: #ffffff;
 		opacity: 0.9;
-		font-size: 36px;
+		font-size: 2.3em;
 		font-style: italic;
 		line-height: 1.45;
 		padding: 10px 15px;
 		position: relative;
 		text-align: center;
 		width: 80%;
-		margin-left: 96px;
+		margin-left: 6em;
 	}
 
 	footer p {
 		font-family: 'Roboto', sans-serif;
-		font-size: 20pt;
+		font-size: 1.7em;
 		line-height: 30px;
 		padding-bottom: 10px;
 	}
@@ -1110,21 +1110,21 @@ footer .contacts {
 	}
 
 	.vk {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
+		padding-left: 5em;
+		width: 2.5em;
+		height: 2.5em;
 	}
 
 	.inst {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
+		padding-left: 5em;
+		width: 2.5em;
+		height: 2.5em;
 	}
 
 	.logo {
-		padding-left: 80px;
-		width: 40px;
-		height: 40px;
-		padding-right: 80px;
+		padding-left: 5em;
+		width: 2.5em;
+		height: 2.5em;
+		padding-right: 5em;
 	}
 }
