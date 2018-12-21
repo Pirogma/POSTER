@@ -301,7 +301,6 @@ footer .contacts {
 	width: 20px;
 	padding-right: 20px;
 }
-
 @media (min-width: 768px) {
 	body {
 		min-width: 768px;
@@ -449,7 +448,7 @@ footer .contacts {
 		color: white;
 		transition: .5s;
 		opacity: 0.9;
-margin-right: 12px;
+		margin-right: 12px;
 	}
 
 	.about a:hover {
@@ -522,22 +521,23 @@ margin-right: 12px;
 		width: 160px;
 		opacity: 0.6;
 	}
+
 	blockquote {
-  	font-family: 'Istok Web', sans-serif;
-  	background: none repeat scroll 0 0 #000000;
-  	border-bottom: 3px dashed #bababa;
-  	border-top: 3px dashed #bababa;
-  	color: #ffffff;
-  	opacity: 0.9;
-  	font-size: 24px;
-  	font-style: italic;
-  	line-height: 1.45;
-  	padding: 10px 15px;
-  	position: relative;
-  	text-align: center;
+		font-family: 'Istok Web', sans-serif;
+		background: none repeat scroll 0 0 #000000;
+		border-bottom: 3px dashed #bababa;
+		border-top: 3px dashed #bababa;
+		color: #ffffff;
+		opacity: 0.9;
+		font-size: 24px;
+		font-style: italic;
+		line-height: 1.45;
+		padding: 10px 15px;
+		position: relative;
+		text-align: center;
 		width: 75%;
 		margin-left: 96px;
-  }
+	}
 
 	footer p {
 		font-family: 'Roboto', sans-serif;
@@ -572,7 +572,6 @@ margin-right: 12px;
 		padding-right: 80px;
 	}
 }
-
 @media (min-width: 1024px) {
 	body {
 		min-width: 1024px;
@@ -720,7 +719,7 @@ margin-right: 12px;
 		color: white;
 		transition: .5s;
 		opacity: 0.9;
-margin-right: 12px;
+		margin-right: 12px;
 	}
 
 	.about a:hover {
@@ -793,22 +792,297 @@ margin-right: 12px;
 		width: 160px;
 		opacity: 0.6;
 	}
+
 	blockquote {
-  	font-family: 'Istok Web', sans-serif;
-  	background: none repeat scroll 0 0 #000000;
-  	border-bottom: 3px dashed #bababa;
-  	border-top: 3px dashed #bababa;
-  	color: #ffffff;
-  	opacity: 0.9;
-  	font-size: 24px;
-  	font-style: italic;
-  	line-height: 1.45;
-  	padding: 10px 15px;
-  	position: relative;
-  	text-align: center;
+		font-family: 'Istok Web', sans-serif;
+		background: none repeat scroll 0 0 #000000;
+		border-bottom: 3px dashed #bababa;
+		border-top: 3px dashed #bababa;
+		color: #ffffff;
+		opacity: 0.9;
+		font-size: 24px;
+		font-style: italic;
+		line-height: 1.45;
+		padding: 10px 15px;
+		position: relative;
+		text-align: center;
 		width: 75%;
 		margin-left: 96px;
-  }
+	}
+
+	footer p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 20pt;
+		line-height: 30px;
+		padding-bottom: 10px;
+	}
+
+	footer .contacts {
+		display: inline-flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.vk {
+		padding-left: 80px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.inst {
+		padding-left: 80px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.logo {
+		padding-left: 80px;
+		width: 40px;
+		height: 40px;
+		padding-right: 80px;
+	}
+}
+
+@media (min-width: 1440px) {
+	body {
+		min-width: 1440px;
+		padding-left: 48px;
+	}
+
+	header ul {
+		font-family: 'Roboto', sans-serif;
+		display: inline-flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 10px;
+		width: 95%;
+		font-size: 20pt;
+	}
+
+	.name_320 {
+		display: none;
+	}
+
+	ul .name_768,
+	.sec,
+	.dv {
+		display: flex;
+	}
+
+	.on-hover img {
+		margin-top: 12px;
+		width: 15px;
+		margin-left: 435px;
+		border: 0.1px solid #c0c0c0;
+		border-radius: 100%;
+		box-shadow: inset #000000 0 0 10px 0.5px, #ffffff 0 0 6px 0.5px;
+	}
+
+	.hidden-block {
+		position: absolute;
+		width: 50%;
+	}
+
+	.text {
+		font-size: 185pt;
+		opacity: 0.8;
+		margin-left: -14px;
+	}
+
+	.text2 {
+		margin-top: 10px;
+		font-size: 36pt;
+	}
+
+	.light {
+		font-family: Geometria, sans-serif;
+		margin-left: 6px;
+		letter-spacing: 20px;
+		font-size: 185pt;
+		font-weight: 100;
+		text-align: right;
+		margin-right: 48px;
+		margin-top: -10px;
+	}
+
+	.image img {
+		position: absolute;
+		z-index: 2;
+	}
+
+	.image img:first-child {
+		margin-left: 420px;
+		margin-top: 40px;
+		width: 260px;
+	}
+
+	.image img:last-child {
+		margin-top: 250px;
+		margin-left: 120px;
+		width: 320px;
+	}
+
+	.image img:first-child:hover {
+		-webkit-transform: scale(2.5);
+		-ms-transform: scale(2.5);
+		transform: scale(2.5);
+		transition: 3s;
+	}
+
+	.image img:last-child:hover {
+		-webkit-transform: scale(2.5);
+		-ms-transform: scale(2.5);
+		transform: scale(2.5);
+		transition: 3s;
+	}
+
+	.about h1 {
+		text-align: right;
+		margin-left: -160px;
+		font-size: 48pt;
+		padding-bottom: 40px;
+	}
+
+	.about h2 {
+		text-align: center;
+		margin-top: -5px;
+		font-size: 60pt;
+		padding-bottom: 35px;
+		opacity: 0.8;
+	}
+
+	h3 {
+		font-size: 34pt;
+		margin-bottom: 20px;
+	}
+
+	.infa p {
+		margin-top: 100px;
+		font-size: 72pt;
+	}
+
+	.infa2 p {
+		text-align: center;
+		min-width: 1044px;
+		font-size: 36pt;
+	}
+
+	.about ul {
+		line-height: 150%;
+		text-align: right;
+		text-transform: none;
+		font-family: 'Istok Web', sans-serif;
+		padding-bottom: 40px;
+		padding-top: 35px;
+		font-size: 32pt;
+		margin-right: 12px;
+	}
+
+	.about a {
+		text-decoration: none;
+		outline: none;
+		display: inline-block;
+		padding: 30px;
+		border-radius: 60px;
+		background-image: linear-gradient(45deg, #000000 0%, #ffffff 50%, #000000 100%);
+		background-position: 100% 0;
+		background-size: 200% 200%;
+		font-size: 48px;
+		color: white;
+		transition: .5s;
+		opacity: 0.9;
+		margin-right: 48px;
+	}
+
+	.about a:hover {
+		background-position: 0 0;
+	}
+
+	.cut {
+		position: absolute;
+		width: 190px;
+		margin-left: -6px;
+		margin-bottom: -10px;
+	}
+
+	.cut2 {
+		position: absolute;
+		margin-top: -140px;
+		margin-left: 660px;
+		width: 120px;
+		opacity: 0.7;
+	}
+
+	.cut3 {
+		position: absolute;
+		margin-top: -110px;
+		margin-left: 1080px;
+		width: 350px;
+		opacity: 0.7;
+	}
+
+	.cut4 {
+		position: absolute;
+		margin-top: -180px;
+		margin-left: 1200px;
+		width: 230px;
+		opacity: 0.7;
+	}
+
+	.cut5 {
+		position: absolute;
+		margin-top: -20px;
+		margin-left: 65px;
+		width: 80px;
+		opacity: 0.7;
+	}
+
+	.cut6 {
+		position: absolute;
+		margin-top: 45px;
+		margin-left: 320px;
+		width: 60px;
+		opacity: 0.5;
+	}
+
+	.image2 img {
+		position: absolute;
+		z-index: 3;
+		width: 100%;
+	}
+
+	.image2 img:first-child {
+		margin-left: 505px;
+		margin-top: 30px;
+		width: 90px;
+		opacity: 0.5;
+	}
+
+	.image2 img:last-child {
+		margin-top: -105px;
+		margin-left: 595px;
+		width: 160px;
+		opacity: 0.6;
+	}
+
+	blockquote {
+		font-family: 'Istok Web', sans-serif;
+		background: none repeat scroll 0 0 #000000;
+		border-bottom: 3px dashed #bababa;
+		border-top: 3px dashed #bababa;
+		color: #ffffff;
+		opacity: 0.9;
+		font-size: 36px;
+		font-style: italic;
+		line-height: 1.45;
+		padding: 10px 15px;
+		position: relative;
+		text-align: center;
+		width: 80%;
+		margin-left: 96px;
+	}
 
 	footer p {
 		font-family: 'Roboto', sans-serif;
